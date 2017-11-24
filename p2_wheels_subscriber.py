@@ -24,7 +24,7 @@ bot.drive_straight(100)
 
 def callback(data):
     m = data.data.split()
-    print(m)
+    print(data.data)
     if (int(m[0])>500):
         bot.drive_turn(100, 0)
     elif (int(m[1])>500):
