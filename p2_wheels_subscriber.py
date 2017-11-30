@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 from __future__ import print_function
 import rospy
@@ -17,28 +18,27 @@ bot.start()
 
 bot.full()
 
-bot.drive_straight(-100)
+bot.drive_straight(-35)
 time.sleep(2)
-
-bot.drive_straight(100)
 
 def callback(data):
     m = data.data.split()
-    print(data.data)
-    if (int(m[0])>500):
-        bot.drive_turn(100, 0)
-    elif (int(m[1])>500):
-        bot.drive_turn(100, 0)
-    elif (int(m[2])>500):
-        bot.drive_turn(100, 0)
-    elif (int(m[3])>500):
-        bot.drive_turn(-100, 0)
-    elif (int(m[4])>500):
-        bot.drive_turn(-100, 0)
-    elif (int(m[5])>500):
-        bot.drive_turn(-100, 0)
+    print(m)
+    if (int(m[0])>100):
+        bot.drive_direct(-35, 35)
+    elif (int(m[1])>100):
+        bot.drive_direct(-35, 35)
+    elif (int(m[2])>100):
+        bot.drive_direct(-35, 35)
+    elif (int(m[3])>100):
+        bot.drive_direct(35, -35)
+    elif (int(m[4])>100):
+        bot.drive_direct(35, -35)
+    elif (int(m[5])>100):
+        bot.drive_direct(35, -35)
     else:
-        bot.drive_straight(100)
+        bot.drive_straight(35)
+
 
 #define the subscriber
 def random_subscriber():
