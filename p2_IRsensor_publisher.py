@@ -34,8 +34,8 @@ def sensor_state_publisher():
         sensor_state[3]= bot.get_sensors().light_bumper_center_right
         sensor_state[4]= bot.get_sensors().light_bumper_front_right
         sensor_state[5]= bot.get_sensors().light_bumper_right
-        rospy.loginfo(sensor_state)
         sensor_string=str(' %d %d %d %d %d %d ' %(sensor_state[0],sensor_state[1],sensor_state[2],sensor_state[3],sensor_state[4],sensor_state[5]))
+        rospy.loginfo(sensor_string)
         pub.publish(sensor_string)
         rate.sleep()
 
