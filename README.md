@@ -1,11 +1,11 @@
 # raspi_roomba_nav
 # poject 4
-*this project is to communcate with irobot roomba using Ros in raspberrypi, so after you install ros kinetic follow the instructions below:
+*this project is to auto navigate the irobot roomba using Ros in raspberrypi, so after you install ros kinetic follow the instructions below:
 
 First you need to creat a 'worck space' and a ' package', to do so please follow steps (4.1 ,4.2) in the link below:
 https://www.intorobotics.com/ros-kinetic-publisher-and-subscriber-in-python/
 
-Then put the files found in folder pub&sub inside /your_work_space/src/your_pakage_name/src/
+Then put the two files found in here inside /your_work_space/src/your_pakage_name/src/
 
 Then go to /your_work_spase directory and type:
 
@@ -43,6 +43,7 @@ $cd /your_work_space
 $source ./devel/setup.bash
 $export ROS_MASTER_URI=http://[pi_ip_address]:11311
 $export ROS_IP=[pi_ip_address]
+$cd /your_work_space/src/your_pakage_name/src/
 $chmod u+x 'file_names.py'
 $rosrun 'your_pakage_name' 'file_name.py'
 ```
