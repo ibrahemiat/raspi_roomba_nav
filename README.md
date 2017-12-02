@@ -48,4 +48,4 @@ $chmod u+x 'file_names.py'
 $rosrun 'your_pakage_name' 'file_name.py'
 ```
 
-instde of a video there will be a demo
+instead of a video there will be a demo
