@@ -1,13 +1,18 @@
 # raspi_roomba_nav
 # poject 4
-*this project is to auto navigate the irobot roomba using Ros in raspberrypi, so after you install ros kinetic follow the instructions below:
 
-First you need to creat a 'worck space' and a ' package', to do so please follow steps (4.1 ,4.2) in the link below:
+To begin the user must download the ROS kinetic package for Ubuntu using the link below. Please make sure to install the Desktop Full (Recommended) version.
+
+http://wiki.ros.org/kinetic/Installation/Ubuntu
+
+*this project is to auto navigate the irobot roomba using ROS in raspberrypi, so after you install ros kinetic follow the instructions below:
+
+Next the user needs to create a 'work space' and a ' package'. To do so please follow steps (4.1 ,4.2) in the link below:
 https://www.intorobotics.com/ros-kinetic-publisher-and-subscriber-in-python/
 
-Then put the two files found in here inside /your_work_space/src/your_pakage_name/src/
+Then save the two files found in here inside /your_work_space/src/your_pakage_name/src/
 
-Then go to /your_work_spase directory and type:
+After, go to /your_work_spase directory and type:
 
 
 ```
@@ -21,7 +26,7 @@ $source ./devel/setup.bash
 
 $pip install pycreate2
 ```
-In a new session type to intiate roscore:
+In a new session/shell type to intiate roscore:
 ```
 $cd /your_work_space
 $source ./devel/setup.bash
@@ -37,7 +42,7 @@ $sudo usermod -a -G dialout $USER  #give permission to the USB port to serial
 $rosrun 'your_pakage_name' 'file_name.py'
 ```
 
-In a new session type to run the subscriber:
+In a new session/shell type to run the subscriber:
 ```
 $cd /your_work_space
 $source ./devel/setup.bash
