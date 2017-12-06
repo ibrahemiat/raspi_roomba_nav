@@ -1,8 +1,9 @@
 # Poject 4: Roomba Control Algorithm for Obstacle Avoidance Using ROS
 
-Group 4: * Ibrahim Ahmed
-         * Danny Asmaro
-         * Sharon Obiefuna
+- Group 4: 
+  - Ibrahim Ahmed
+  - Danny Asmaro
+  - Sharon Obiefuna
 
 ## About
 
