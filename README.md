@@ -1,4 +1,3 @@
-# raspi_roomba_nav
 # Poject 4: Roomba Control Algorithm for Obstacle Avoidance using ROS
 
 ## About
