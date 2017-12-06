@@ -4,7 +4,7 @@
 
 For this project, the ROS package is used to establish an obstacle avoidance ROS navigation node as shown in the figure below.
 
-                                <img width="595" alt="capture" src="https://user-images.githubusercontent.com/31410235/33640046-4cfa3654-d9fc-11e7-9b90-45acca5eea6e.PNG">
+<img width="595" alt="capture" src="https://user-images.githubusercontent.com/31410235/33640046-4cfa3654-d9fc-11e7-9b90-45acca5eea6e.PNG">
 
 - **Publisher Node:** to publish six obstacle sensors’ reading 
 - **Subscriber Node:** to drive left and right wheels of the Roomba depending on the sensor reading. 
@@ -61,4 +61,4 @@ $chmod u+x 'file_names.py'
 $rosrun 'your_pakage_name' 'file_name.py'
 ```
 
-Note to Professor/TA: Instead of a video there will be a demo.
+*Note to Professor/TA: Instead of a video there will be a demo.*
