@@ -7,12 +7,18 @@
 
 ## About
 
-For this project, the ROS package is used to establish an obstacle avoidance ROS navigation node as shown in the figure below.
+For this project, the ROS package is used to establish an obstacle avoidance ROS navigation node as shown in the figure below. The publisher node publishes readings of 6 obstacle sensors. While, the subscriber node drives the left and right wheels of the Roomba depending on the sensor reading.
 
 <img width="595" alt="capture" src="https://user-images.githubusercontent.com/31410235/33640046-4cfa3654-d9fc-11e7-9b90-45acca5eea6e.PNG">
 
 - **Publisher Node:** to publish six obstacle sensors’ reading 
 - **Subscriber Node:** to drive left and right wheels of the Roomba depending on the sensor reading. 
+
+## Required Resources 
+ 
+- A Raspberry Pi 3 board. RP3 can be purchase [Here.](https://www.amazon.com/CanaKit-Raspberry-Complete-Starter-Kit/dp/B01C6Q2GSY/ref=pd_cp_147_1?_encoding=UTF8&psc=1&refRID=VNATY560QJRKQD417K2Q)
+- Ubuntu installed on Raspberry Pi 3. Ubunto can be downloaded [Here.](https://ubuntu-mate.org/blog/ubuntu-mate-for-raspberry-pi-3/) 
+- ROS Kinetic installed on Raspberry Pi 3. ROS Kinetic can be downloaded [Here.](http://wiki.ros.org/kinetic/Installation/Ubuntu)
 
 ## Getting Started
 
