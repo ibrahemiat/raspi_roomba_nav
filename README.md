@@ -1,5 +1,9 @@
 # Poject 4: Roomba Control Algorithm for Obstacle Avoidance Using ROS
 
+Group 4: Ibrahim Ahmed
+         Danny Asmaro
+         Sharon Obiefuna.
+
 ## About
 
 For this project, the ROS package is used to establish an obstacle avoidance ROS navigation node as shown in the figure below.
