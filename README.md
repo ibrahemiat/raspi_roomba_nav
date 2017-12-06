@@ -22,16 +22,16 @@ For this project, the ROS package is used to establish an obstacle avoidance ROS
 
 ## Getting Started
 
-- To begin the user must download the ROS kinetic package for Ubuntu. [Click hrere to download ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu). *Please make sure to install the Desktop Full (Recommended) version.*
+- Do begin the user must download the ROS kinetic package for Ubuntu. [Click hrere to download ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu). *Please make sure to install the Desktop Full (Recommended) version.*
 
 *Note: this project is to auto navigate the irobot roomba using ROS in raspberrypi, so after you install ros kinetic follow the instructions below:
 
 - Next the user needs to create a 'work space' and a ' package'. To do so please follow steps (4.1 ,4.2) in the link below:
 [ROS Kinetic Publisher and Subscriber In Python](https://www.intorobotics.com/ros-kinetic-publisher-and-subscriber-in-python/).
 
-Then save the two files found in here inside /your_work_space/src/your_pakage_name/src/
+- Then save the two files found in here inside /your_work_space/src/your_pakage_name/src/
 
-- After, go to /your_work_spase directory and type:
+- Go to /your_work_spase directory and type:
 
 
 ```
@@ -45,7 +45,7 @@ $source ./devel/setup.bash
 
 $pip install pycreate2
 ```
-- In a new session/shell type to intiate roscore:
+- In a new session/shell type to initiate roscore:
 ```
 $cd /your_work_space
 $source ./devel/setup.bash
